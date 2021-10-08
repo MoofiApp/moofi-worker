@@ -1,12 +1,9 @@
-const axios = require('axios');
+const axios = require("axios");
 
-const getVaults = async vaultsEndpoint => {
+const getVaults = async () => {
   try {
-    const response = await axios.get(vaultsEndpoint);
-    const data = response.data;
-    let vaults = '[' + data.substring(data.indexOf('\n') + 1);
-    vaults = eval(vaults);
-    return vaults;
+    const response = await axios.get(process.env.API_URL + "/vaults");
+    return response.data;
   } catch (err) {
     console.error(err);
     return 0;
