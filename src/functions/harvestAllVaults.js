@@ -21,10 +21,10 @@ async function harvestAllVaults() {
       const result = await stratContract.methods
         .harvest()
         .send({ from: web3.eth.defaultAccount, gas: 4035429 });
-      console.log("Harvest result", vault.id, result);
+      console.log("> harvest succeeded", vault.id);
     } else {
       console.log(
-        "Dont need to be harvested",
+        "> dont need to be harvested",
         vault.id,
         vault.lastHarvest,
         vault.harvestFrequency,
