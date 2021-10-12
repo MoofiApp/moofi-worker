@@ -398,11 +398,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash@^4.14.159":
-  version "4.14.175"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.175.tgz#b78dfa959192b01fae0ad90e166478769b215f45"
-  integrity sha512-XmdEOrKQ8a1Y/yxQFOMbC47G/V2VDO1GvMRnl4O75M4GW/abC5tnfzadQYkqEveqRM1dEJGFFegfPNA2vvx2iw==
-
 "@types/node@*":
   version "16.10.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.3.tgz#7a8f2838603ea314d1d22bb3171d899e15c57bd5"
@@ -1088,15 +1083,6 @@ eth-lib@^0.1.26:
     servify "^0.1.12"
     ws "^3.0.0"
     xhr-request-promise "^0.1.2"
-
-eth-multicall@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/eth-multicall/-/eth-multicall-1.4.0.tgz#cfd913157260fbaca6522c0cdac5c7ba82afd13e"
-  integrity sha512-qQEheqDy2cmVgCNIb/GWB+2vK4MB1DkyJYNEVtzR1mDWDcUZIdXdUAqr/QRequu0y2YTrre+ZPsFnS8tibGPDQ==
-  dependencies:
-    "@types/lodash" "^4.14.159"
-    lodash "^4.17.19"
-    web3 "^1.5.0"
 
 ethereum-bloom-filters@^1.0.6:
   version "1.0.10"
@@ -1811,11 +1797,6 @@ keyv@^3.0.0:
   dependencies:
     json-buffer "3.0.0"
 
-lodash@^4.17.19:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
-
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
@@ -1952,11 +1933,6 @@ moment-timezone@^0.5.31:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
-
-moofi-addressbook@^0.3.22:
-  version "0.3.22"
-  resolved "https://registry.yarnpkg.com/moofi-addressbook/-/moofi-addressbook-0.3.22.tgz#dff2ff60307607e975988ca51e686147a5a5a466"
-  integrity sha512-M2byFfcRKpijlBiTFTFwaM/oOpCgLJLWlt5rMfN4QShs/xKHm9w7go+tu0I4Q/Yx6j1L1iJLhW/8f/vJHssadw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -2927,7 +2903,7 @@ web3-utils@1.6.0:
     randombytes "^2.1.0"
     utf8 "3.0.0"
 
-web3@^1.5.0, web3@^1.6.0:
+web3@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/web3/-/web3-1.6.0.tgz#d8fa0cd9e7bf252f9fe43bb77dc42bc6671affde"
   integrity sha512-rWpXnO88MiVX5yTRqMBCVKASxc7QDkXZZUl1D48sKlbX4dt3BAV+nVMVUKCBKiluZ5Bp8pDrVCUdPx/jIYai5Q==
