@@ -15,7 +15,7 @@ async function worker() {
     }
     console.log("> finished harvesting!");
 
-    await sleep(30 * 60 * 1000);
+    await sleep(60 * 60 * 1000);
   } while (true);
 }
 
