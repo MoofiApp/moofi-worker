@@ -26,7 +26,7 @@ async function harvestAllVaults(onlyCheck) {
       try {
         const result = await stratContract.methods
           .harvest()
-          .send({ from: web3.eth.defaultAccount, gas: 4035429 });
+          .send({ from: web3.eth.defaultAccount, gas: 6000000 });
         console.log("> harvest succeeded", vault.id);
       } catch (e) {
         console.log("> harvest failed", vault.id, e);
