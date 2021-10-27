@@ -11,6 +11,9 @@ async function harvestAllVaults(onlyCheck) {
 
   for (let i = 0; i < vaults.length; i++) {
     const vault = vaults[i];
+    if (vault.status !== 'active') {
+      continue;
+    }
     const stratContract = new web3.eth.Contract(StrategyABI, vault.strategy);
     const unixTime = Math.floor(Date.now() / 1000);
     if (
